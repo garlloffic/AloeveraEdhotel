@@ -1,0 +1,70 @@
+# Project: AloeveraEdhotel
+# Makefile created by Dev-C++ 5.8.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o welcome.o about.o administrator.o auth.o compare.o concierge.o faq.o hidden.o report.o reservation.o room.o session.o user.o validation.o
+LINKOBJ  = main.o welcome.o about.o administrator.o auth.o compare.o concierge.o faq.o hidden.o report.o reservation.o room.o session.o user.o validation.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = AloeveraEdhotel.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+welcome.o: welcome.cpp
+	$(CPP) -c welcome.cpp -o welcome.o $(CXXFLAGS)
+
+about.o: about.cpp
+	$(CPP) -c about.cpp -o about.o $(CXXFLAGS)
+
+administrator.o: administrator.cpp
+	$(CPP) -c administrator.cpp -o administrator.o $(CXXFLAGS)
+
+auth.o: auth.cpp
+	$(CPP) -c auth.cpp -o auth.o $(CXXFLAGS)
+
+compare.o: compare.cpp
+	$(CPP) -c compare.cpp -o compare.o $(CXXFLAGS)
+
+concierge.o: concierge.cpp
+	$(CPP) -c concierge.cpp -o concierge.o $(CXXFLAGS)
+
+faq.o: faq.cpp
+	$(CPP) -c faq.cpp -o faq.o $(CXXFLAGS)
+
+hidden.o: hidden.cpp
+	$(CPP) -c hidden.cpp -o hidden.o $(CXXFLAGS)
+
+report.o: report.cpp
+	$(CPP) -c report.cpp -o report.o $(CXXFLAGS)
+
+reservation.o: reservation.cpp
+	$(CPP) -c reservation.cpp -o reservation.o $(CXXFLAGS)
+
+room.o: room.cpp
+	$(CPP) -c room.cpp -o room.o $(CXXFLAGS)
+
+session.o: session.cpp
+	$(CPP) -c session.cpp -o session.o $(CXXFLAGS)
+
+user.o: user.cpp
+	$(CPP) -c user.cpp -o user.o $(CXXFLAGS)
+
+validation.o: validation.cpp
+	$(CPP) -c validation.cpp -o validation.o $(CXXFLAGS)
