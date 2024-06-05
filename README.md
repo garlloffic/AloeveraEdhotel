@@ -15,10 +15,10 @@ Aloevera Edhotel is a hotel reservation system that aims to make it easier to bo
 ## 💻 Install
 - Clone Repository
 ```bash
-git clone https://github.com/garllockhart/AloeveraEdhotel.git
+git clone https://github.com/garlynugrahaa/aloeveraedhotel.git
 ```
 ```bash
-cd AloeveraEdhotel
+cd aloeveraedhotel
 ```
 
 ## 🧑 Author
@@ -27,6 +27,9 @@ cd AloeveraEdhotel
 
 👤 **Nazwa Fitriyani Zahra**
 - Instagram : <a href="https://www.instagram.com/nazwafitriyanizz/">@nazwafitriyanizz</a>
+
+## 🤝 Contribution
+I really appreciate contributions, issues, and feature requests as this app is far from perfect. Feel free to submit a pull request and make changes to this project. Considering that I am working on this project myself, there are still many features and things that need to be improved, so your help means a lot to me.
 
 ------------
 
