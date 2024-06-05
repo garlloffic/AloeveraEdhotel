@@ -3,7 +3,6 @@
 ------------
 
 ## 🤔 What is Aloevera Edhotel?
-
 Aloevera Edhotel is a hotel reservation system that aims to make it easier to book hotel rooms so that they are more structured. This system is built with the C programming language.
 
 ## 🤨 Feature
@@ -24,8 +23,7 @@ cd AloeveraEdhotel
 
 ## 🧑 Author
 👤 **Garly Nugraha**
-- Instagram : <a href="https://www.instagram.com/garllockhart/">@garllockhart</a>
-- Twitter : <a href="https://twitter.com/garllockhart/">@garllockhart</a>
+- Instagram : <a href="https://www.instagram.com/garlynurahaa/">@garlynugrahaa</a>
 
 👤 **Nazwa Fitriyani Zahra**
 - Instagram : <a href="https://www.instagram.com/nazwafitriyanizz/">@nazwafitriyanizz</a>
